@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: #0d3837;
+    color: #e1c9df;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/*--------------------- Nav start ------------------*/
+
+.home-content-container{
+    height: 100vh;
+}
+
+.navbar, .service-bg,.offcanvas{
+    background-color: #102937 !important;
+}
+
+.project-card{
+    transition: all ease-in-out .5s;
+    
+}
+
+.project-card:hover{
+    transform: scale(1.05);
+    opacity: .8;
+}
+
+.edu-background,.contact{
+ background-color: #145655;
+}
+
+
+.navbar-brand, .home-link{
+    color: #e1c9df !important;
+}
+
+.nav-link, .freelance-header,.clients-status, .fa, .project-heading,.edu-heading{
+    color: #f9744b;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover,.freelance-icon:hover{
+    color: #e1c9df;
+}
+
+.border{
+    border-color: #f9744b !important;
+}
+
+.navbar-toggler,.progress-bar,.img-thumbnail{
+    background-color: #f9744b;
+}
+
+.home-heading, .home-text,.carousel-link,.fa-carousel,.contact-email,.contact-phone{
+    color: #e1c9df;
+}
+
+.home-h1,.freelancer-heading,.carousel-heading{
+    color: #f9744b;
+}
+
+.top-button{
+    color: #e1c9df;
+    transition: all .3s ease-in;
+}
+
+.top-button:hover{
+    transform: translateY(-5px);
+}
+
+.home-link{
+    background-color: #f9744b;
+    transition: all .3s ease-in-out;
+}
+
+.freelancer,.carousel-text{
+    background-color: #145655;
+}
+
+.carousel-section{
+    height: 200px;
+}
+
+.carousel-btn{
+    background-color: #f9744b !important;
+}
+
